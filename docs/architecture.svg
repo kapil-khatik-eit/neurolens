@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="520" viewBox="0 0 1200 520" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .box { fill:#0f172a; stroke:#22c55e; stroke-width:2; rx:14; ry:14; }
+    .title { font: 700 18px sans-serif; fill:#e5e7eb; }
+    .label { font: 500 14px sans-serif; fill:#cbd5f5; }
+    .arrow { stroke:#22c55e; stroke-width:2; marker-end:url(#arrowhead); }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#22c55e" />
+    </marker>
+  </defs>
+
+  <!-- Boxes -->
+  <rect class="box" x="40" y="200" width="170" height="90"/>
+  <text class="title" x="55" y="235">Capture</text>
+  <text class="label" x="55" y="260">mss / OS API</text>
+
+  <rect class="box" x="240" y="200" width="200" height="90"/>
+  <text class="title" x="255" y="235">Perception</text>
+  <text class="label" x="255" y="260">OCR + VLM</text>
+
+  <rect class="box" x="470" y="200" width="200" height="90"/>
+  <text class="title" x="485" y="235">Context Builder</text>
+  <text class="label" x="485" y="260">Session + Events</text>
+
+  <rect class="box" x="700" y="200" width="200" height="90"/>
+  <text class="title" x="715" y="235">Reasoning</text>
+  <text class="label" x="715" y="260">LLM / Agents</text>
+
+  <rect class="box" x="930" y="80" width="200" height="90"/>
+  <text class="title" x="945" y="115">Memory</text>
+  <text class="label" x="945" y="140">Vector DB</text>
+
+  <rect class="box" x="930" y="320" width="200" height="90"/>
+  <text class="title" x="945" y="355">Action</text>
+  <text class="label" x="945" y="380">Automation</text>
+
+  <rect class="box" x="700" y="360" width="200" height="90"/>
+  <text class="title" x="715" y="395">Feedback</text>
+  <text class="label" x="715" y="420">Overlay/UI</text>
+
+  <!-- Arrows -->
+  <line class="arrow" x1="210" y1="245" x2="240" y2="245"/>
+  <line class="arrow" x1="440" y1="245" x2="470" y2="245"/>
+  <line class="arrow" x1="670" y1="245" x2="700" y2="245"/>
+  <line class="arrow" x1="900" y1="245" x2="930" y2="125"/>
+  <line class="arrow" x1="900" y1="245" x2="930" y2="365"/>
+  <line class="arrow" x1="900" y1="405" x2="900" y2="290"/>
+  <line class="arrow" x1="700" y1="405" x2="670" y2="290"/>
+</svg>
